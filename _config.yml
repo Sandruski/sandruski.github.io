@@ -20,6 +20,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sandruski.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_url: 'https://twitter.com/sandruskiag'
 linkedin_url: 'https://www.linkedin.com/in/sandra-alvarez-45453215b/'
+section_title: 'Projects'
+section_subtitle: 'These are some of the projects I have worked on.'
 
 # Build settings
 markdown: kramdown
