@@ -15,9 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "Sandra Alvarez"
 email: 'sandruskiag@gmail.com'
-description: "I'm a games programmer!"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sandruski.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sandruski.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_url: 'https://twitter.com/sandruskiag'
 linkedin_url: 'https://www.linkedin.com/in/sandra-alvarez-45453215b/'
 section_title: 'Projects'
@@ -38,5 +37,5 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/', text: 'HOME' }
+  - { url: '/about', text: 'ABOUT' }

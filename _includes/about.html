@@ -1,0 +1,34 @@
+<p class="text-center">
+{{ site.data.about.intro }}
+
+{{ site.data.about.university_intro }}
+<element class="highlight">
+    <element class="gs">
+    {{ site.data.about.university_degree }}
+    </element>
+</element>
+at
+<element class="highlight">
+    <element class="gs">
+        <a href="{{ site.data.about.university_url }}">{{ site.data.about.university_name }}</a>
+    </element>
+</element>
+{{ site.data.about.university_outro }}
+
+{{ site.data.about.job_intro }}
+<element class="highlight">
+    <element class="gs">
+    {{ site.data.about.job_role }}
+    </element>
+</element>
+at 
+<element class="highlight">
+    <element class="gs">
+        <a href="{{ site.data.about.job_url }}">{{ site.data.about.job_name }}</a>
+    </element>
+</element>
+{{ site.data.about.job_outro }}
+
+<br><br><br>
+<img class="img-responsive img-circle profile-pic" src="{{ site.data.about.featured_image }}">
+</p>
