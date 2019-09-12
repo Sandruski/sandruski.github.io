@@ -1,16 +1,18 @@
 ---
-intro: Hi! I'm a Game Developer.
+intro: I am a game programmer and a gamer. I started playing video games when I was a kid, so they have been a huge part of my past. As I grew older I joined the video games industry, aiming to create experiences that would touch the future of other people like me. I have a lot of fun doing what I do!
+outro: I mainly program in C/C++, but I am also familiar with languages such as C#, Python, and Java. I use Unity sometimes, but I have coded most of my games without any game engine.
 featured_image: '/img/Sandra.JPG'
 
-university_intro: I am a 3rd year student at
-university_degree: Video Game Design and Development
+university_intro: I am a final year student of the
+university_degree: Bachelor's degree in Video Game Design and Development
 university_name: Universitat Politècnica de Catalunya (UPC)
 university_url: https://www.citm.upc.edu/
-university_outro: .
 
-job_intro: The 2019 summer I have been working at
-job_role: Developer Internship
-job_name: King
-job_url: https://king.com/
-job_outro: .
+king_scholarship_intro: This past summer I have won the
+king_intro: and I have been working as a
+king: King
+king_role: Developer Intern
+king_scholarship: King Women in Games Scholarship
+king_url: https://king.com/
+king_scholarship_url: https://king.com/es/jobs/students/scholarships/gdc-2019/winners
 ---

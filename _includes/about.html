@@ -1,5 +1,12 @@
 <p class="text-center">
-{{ site.data.about.intro }}
+
+<element class="highlight">
+    <element class="go">
+    {{ site.data.about.intro }}
+    </element>
+</element>
+
+<br><br>
 
 {{ site.data.about.university_intro }}
 <element class="highlight">
@@ -13,22 +20,34 @@ at
         <a href="{{ site.data.about.university_url }}">{{ site.data.about.university_name }}</a>
     </element>
 </element>
-{{ site.data.about.university_outro }}
+.
 
-{{ site.data.about.job_intro }}
+{{ site.data.about.king_scholarship_intro }}
 <element class="highlight">
     <element class="gs">
-    {{ site.data.about.job_role }}
+        <a href="{{ site.data.about.king_scholarship_url }}">{{ site.data.about.king_scholarship }}</a>
+    </element>
+</element>
+{{ site.data.about.king_intro }}
+<element class="highlight">
+    <element class="gs">
+    {{ site.data.about.king_role }}
     </element>
 </element>
 at 
 <element class="highlight">
     <element class="gs">
-        <a href="{{ site.data.about.job_url }}">{{ site.data.about.job_name }}</a>
+        <a href="{{ site.data.about.king_url }}">{{ site.data.about.king }}</a>
     </element>
 </element>
-{{ site.data.about.job_outro }}
+.
+
+<br><br>
+
+{{ site.data.about.outro }}
 
 <br><br><br>
+
 <img class="img-responsive img-circle profile-pic" src="{{ site.data.about.featured_image }}">
+
 </p>
