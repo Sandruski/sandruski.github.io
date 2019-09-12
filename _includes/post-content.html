@@ -1,7 +1,23 @@
 <div class="content">
   <h3 class="title">{{ post.title }}</h3>
 
-  <p class="excerpt">{{ post.lead_text }}</p>
+  <p class="excerpt">
+
+    {{ post.description }}
+
+    <br>
+
+    Snippets of my individual contribution:
+
+    {% if post.individual_contributions != empty %}
+    <ul class="my-list">
+      {% for individual_contribution in post.individual_contributions %}
+      <li class="list-group-item-heading">{{ individual_contribution }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+  </p>
 
   {% if post.project_link != empty %}
   <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
