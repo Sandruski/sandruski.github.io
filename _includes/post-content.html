@@ -1,5 +1,7 @@
 <div class="content">
+
   <h3 class="title">{{ post.title }}</h3>
+  <h4 class="my-grey-color">{{ post.year }}</h4>
 
   <p class="excerpt">
 
@@ -9,10 +11,10 @@
 
     Snippets of my individual contribution:
 
-    {% if post.individual_contributions != empty %}
+    {% if post.individual_contribution != empty %}
     <ul class="my-list">
-      {% for individual_contribution in post.individual_contributions %}
-      <li class="list-group-item-heading">{{ individual_contribution }}</li>
+      {% for snippet in post.individual_contribution %}
+      <li class="list-group-item-heading">{{ snippet }}</li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -38,4 +40,5 @@
     {% endfor %}
   </div>
   {% endif %} -->
+
 </div>
