@@ -1,17 +1,30 @@
 <div class="content">
 
+  {% if post.title != empty %}
   <h3 class="title">{{ post.title }}</h3>
+  {% endif %}
+
+  {% if post.year != empty %}
   <h4 class="my-grey-color">{{ post.year }}</h4>
+  {% endif %}
 
   <p class="excerpt">
 
+    {% if post.description != empty %}
     {{ post.description }}
+    {% endif %}
 
     <br>
 
-    Snippets of my individual contribution:
-
     {% if post.individual_contribution != empty %}
+
+    Snippets of my 
+    {% if post.individual_contribution_url != empty %}
+    <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
+    {% else %}
+    individual contribution:
+    {% endif %}
+
     <ul class="my-list">
       {% for snippet in post.individual_contribution %}
       <li class="list-group-item-heading">{{ snippet }}</li>
@@ -21,8 +34,11 @@
 
   </p>
 
-  {% if post.project_link != empty %}
-  <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
+  {% if post.website_url != empty %}
+  <a href="{{ post.website_url }}" class="project-link"><button class="btn btn-default btn-lg"></i>Website</button></a>
+  {% endif %}
+  {% if post.github_url != empty %}
+  <a href="{{ post.github_url }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Repository</button></a>
   {% endif %}
 
   {% if post.tags != empty %}

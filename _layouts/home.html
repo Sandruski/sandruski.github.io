@@ -7,16 +7,18 @@
     <div class="row">
       <div class="col-md-12">
 
-        {% if site.data.projects.section_title != '' %}
+        <div id="projects">
+        {% if site.data.projects.section_title != empty %}
         <h2 class="section-title text-center">{{ site.data.projects.section_title }}</h2>
         {% endif %}
-        {% if site.data.projects.section_subtitle != '' %}
+        {% if site.data.projects.section_subtitle != empty %}
         <p class="section-subtitle text-center">{{ site.data.projects.section_subtitle }}</p>
         {% endif %}
 
         <div class="break"></div>
 
         {% for post in paginator.posts %}
+        {% if post.type == "project" %}
           <div class="wow fadeIn">
           {% if post.position == "left" %}
             {% include content-left.html %}
@@ -26,7 +28,40 @@
             {% include content-right.html %}
           {% endif %}
           </div>
+        {% endif %}
         {% endfor %}
+        </div>
+
+        <a class="section-jump text-center" href="#gamejams">
+            <i class="fa fa-angle-down fa-3x"></i>
+        </a>
+
+        <div class="break"></div>
+
+        <div id="gamejams">
+        {% if site.data.gamejams.section_title != empty %}
+        <h2 class="section-title text-center">{{ site.data.gamejams.section_title }}</h2>
+        {% endif %}
+        {% if site.data.gamejams.section_subtitle != empty %}
+        <p class="section-subtitle text-center">{{ site.data.gamejams.section_subtitle }}</p>
+        {% endif %}
+
+        <div class="break"></div>
+
+        {% for post in paginator.posts %}
+        {% if post.type == "gamejam" %}
+          <div class="wow fadeIn">
+          {% if post.position == "left" %}
+            {% include content-left.html %}
+          {% endif %}
+
+          {% if post.position == "right" %}
+            {% include content-right.html %}
+          {% endif %}
+          </div>
+        {% endif %}
+        {% endfor %}
+        </div>
 
         {% include pagination.html %}
 

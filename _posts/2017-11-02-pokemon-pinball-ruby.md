@@ -1,15 +1,12 @@
 ---
 layout: inner
-position: left
-title: 'Pokémon Pinball: Ruby'
-description: 'A tribute to Commando (NES). This is the first game that I have ever developed!'
 date: 2017-11-02
+type: project
+position: right
+
+title: 'Pokémon Pinball: Ruby'
 year: '2017'
-tags: C++ SDL
-featured_image: '/img/posts/Pinball.gif'
-project_link: 'https://sandruski.github.io/gets-name-/'
-button_text: 'Website'
-button_icon: 'github'
+description: 'It was done in pairs.'
 individual_contribution:
     - Enemies
     - Items (placed in the floor and dropped by enemies)
@@ -18,4 +15,11 @@ individual_contribution:
     - Camera
     - Spawn points
     - Main menu
+
+tags: C++ SDL
+featured_image: '/img/posts/Pinball.gif'
+
+website_url: ''
+github_url: 'https://github.com/Sandruski/Pokemon-Pinball-Ruby'
+individual_contribution_url: ''
 ---

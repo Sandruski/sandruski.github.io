@@ -1,15 +1,12 @@
 ---
 layout: inner
-position: left
-title: 'Warcraft II: The Stolen Artifacts'
-description: 'A tribute to Commando (NES). This is the first game that I have ever developed!'
 date: 2018-06-06
+type: project
+position: right
+
+title: 'Warcraft II: The Stolen Artifacts'
 year: '2018'
-tags: C++ SDL
-featured_image: '/img/posts/Warcraft.gif'
-project_link: 'https://sandruski.github.io/gets-name-/'
-button_text: 'Website'
-button_icon: 'github'
+description: 'We were a team of 7 people.'
 individual_contribution:
     - Enemies
     - Items (placed in the floor and dropped by enemies)
@@ -18,4 +15,11 @@ individual_contribution:
     - Camera
     - Spawn points
     - Main menu
+
+tags: C++ SDL
+featured_image: '/img/posts/Warcraft.gif'
+
+website_url: 'https://devcrumbs.github.io/Warcraft-II/'
+github_url: 'https://github.com/DevCrumbs/Warcraft-II'
+individual_contribution_url: 'https://devcrumbs.github.io/Warcraft-II/Sandra_Alvarez'
 ---

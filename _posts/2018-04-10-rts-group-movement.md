@@ -1,21 +1,17 @@
 ---
 layout: inner
-position: right
-title: 'RTS Group Movement'
-description: 'A tribute to Commando (NES). This is the first game that I have ever developed!'
 date: 2018-04-10
+type: project
+position: left
+
+title: 'RTS Group Movement'
 year: '2018'
+description: 'It is a solo project.'
+
 tags: C++ SDL
 featured_image: '/img/posts/Movement.gif'
-project_link: 'https://sandruski.github.io/gets-name-/'
-button_text: 'Website'
-button_icon: 'github'
-individual_contribution:
-    - Enemies
-    - Items (placed in the floor and dropped by enemies)
-    - Player grenade
-    - Secret rooms
-    - Camera
-    - Spawn points
-    - Main menu
+
+website_url: 'https://sandruski.github.io/RTS-Group-Movement/'
+github_url: 'https://github.com/Sandruski/RTS-Group-Movement'
+individual_contribution_url: ''
 ---

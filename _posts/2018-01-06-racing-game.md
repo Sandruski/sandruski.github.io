@@ -1,15 +1,12 @@
 ---
 layout: inner
-position: right
-title: 'Racing Game'
-description: 'A tribute to Commando (NES). This is the first game that I have ever developed!'
 date: 2018-01-06
+type: project
+position: left
+
+title: 'Racing Game'
 year: '2018'
-tags: C++ SDL
-featured_image: '/img/posts/Commando.gif'
-project_link: 'https://sandruski.github.io/gets-name-/'
-button_text: 'Website'
-button_icon: 'github'
+description: 'It was done in pairs.'
 individual_contribution:
     - Enemies
     - Items (placed in the floor and dropped by enemies)
@@ -18,4 +15,11 @@ individual_contribution:
     - Camera
     - Spawn points
     - Main menu
+
+tags: C++ SDL
+featured_image: '/img/posts/Racing.gif'
+
+website_url: ''
+github_url: 'https://github.com/Sandruski/Racing-Game'
+individual_contribution_url: ''
 ---

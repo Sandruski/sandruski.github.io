@@ -1,15 +1,12 @@
 ---
 layout: inner
-position: right
-title: 'Alita: Unbreakable Warrior'
-description: 'A tribute to Commando (NES). This is the first game that I have ever developed!'
 date: 2019-06-06
+type: project
+position: left
+
+title: 'Alita: Unbreakable Warrior'
 year: '2019'
-tags: C++ SDL
-featured_image: '/img/posts/Alita.gif'
-project_link: 'https://sandruski.github.io/gets-name-/'
-button_text: 'Website'
-button_icon: 'github'
+description: 'We were a team of 18 people, the whole class.'
 individual_contribution:
     - Enemies
     - Items (placed in the floor and dropped by enemies)
@@ -18,4 +15,11 @@ individual_contribution:
     - Camera
     - Spawn points
     - Main menu
+
+tags: C++ SDL
+featured_image: '/img/posts/Alita.gif'
+
+website_url: 'https://alitaunbreakablewarrior.github.io/'
+github_url: 'https://github.com/JellyBitStudios/JellyBitEngine'
+individual_contribution_url: 'https://alitaunbreakablewarrior.github.io/sandra_alvarez.html'
 ---
