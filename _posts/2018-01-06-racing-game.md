@@ -6,17 +6,25 @@ position: left
 
 title: 'Racing Game'
 year: '2018'
-description: 'It was done in pairs.'
+description: 'A 3D racing game. It is in C++. It was done in pairs.'
 individual_contribution:
-    - Enemies
-    - Items (placed in the floor and dropped by enemies)
-    - Player grenade
-    - Secret rooms
-    - Camera
-    - Spawn points
-    - Main menu
+    engine: ''
 
-tags: C++ SDL
+    physics: 
+        - Implement rotating obstacles
+        - Implement speed ups
+
+    graphics: ''
+
+    ui: ''
+
+    ai: ''
+
+    gameplay:
+        - Build the map
+        - Automatically enclose the track
+
+tags: C++ SDL OpenGL Bullet
 featured_image: '/img/posts/Racing.gif'
 
 website_url: ''

@@ -26,10 +26,93 @@
     {% endif %}
 
     <ul class="my-list">
-      {% for snippet in post.individual_contribution %}
-      <li class="list-group-item-heading">{{ snippet }}</li>
-      {% endfor %}
+
+      {% if post.individual_contribution.engine != empty %}
+      <element class="highlight">
+        <element class="gs">
+          <li class="list-group-item-heading">Engine:</li>
+        </element>
+      </element>
+
+      <ul class="my-list">
+        {% for snippet in post.individual_contribution.engine %}
+        <li class="list-group-item-heading">{{ snippet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if post.individual_contribution.physics != empty %}
+      <element class="highlight">
+        <element class="gs">
+          <li class="list-group-item-heading">Physics:</li>
+        </element>
+      </element>
+
+      <ul class="my-list">
+        {% for snippet in post.individual_contribution.physics %}
+        <li class="list-group-item-heading">{{ snippet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if post.individual_contribution.graphics != empty %}
+      <element class="highlight">
+        <element class="gs">
+          <li class="list-group-item-heading">Graphics:</li>
+        </element>
+      </element>
+
+      <ul class="my-list">
+        {% for snippet in post.individual_contribution.graphics %}
+        <li class="list-group-item-heading">{{ snippet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if post.individual_contribution.ui != empty %}
+      <element class="highlight">
+        <element class="gs">
+          <li class="list-group-item-heading">UI:</li>
+        </element>
+      </element>
+
+      <ul class="my-list">
+        {% for snippet in post.individual_contribution.ui %}
+        <li class="list-group-item-heading">{{ snippet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if post.individual_contribution.ai != empty %}
+      <element class="highlight">
+        <element class="gs">
+          <li class="list-group-item-heading">AI:</li>
+        </element>
+      </element>
+
+      <ul class="my-list">
+        {% for snippet in post.individual_contribution.ai %}
+        <li class="list-group-item-heading">{{ snippet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if post.individual_contribution.gameplay != empty %}
+      <element class="highlight">
+        <element class="gs">
+          <li class="list-group-item-heading">Gameplay:</li>
+        </element>
+      </element>
+
+      <ul class="my-list">
+        {% for snippet in post.individual_contribution.gameplay %}
+        <li class="list-group-item-heading">{{ snippet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
     </ul>
+
     {% endif %}
 
   </p>
@@ -49,12 +132,12 @@
   </div>
   {% endif %}
 
-  <!-- {% if post.categories != empty %}
+  {% if post.categories != empty %}
   <div class="categories">
     {% for category in post.categories %}
       <span>{{ category }}</span>
     {% endfor %}
   </div>
-  {% endif %} -->
+  {% endif %}
 
 </div>

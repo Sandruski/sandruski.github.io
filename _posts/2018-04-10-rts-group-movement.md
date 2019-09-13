@@ -6,9 +6,10 @@ position: left
 
 title: 'RTS Group Movement'
 year: '2018'
-description: 'It is a solo project.'
+description: 'A research in how to implement group movement in RTS games. It is in C++. It is a solo project.'
+individual_contribution: ''
 
-tags: C++ SDL
+tags: C++ SDL Tiled
 featured_image: '/img/posts/Movement.gif'
 
 website_url: 'https://sandruski.github.io/RTS-Group-Movement/'

@@ -6,17 +6,33 @@ position: right
 
 title: 'Warcraft II: The Stolen Artifacts'
 year: '2018'
-description: 'We were a team of 7 people.'
+description: 'A tribute to Warcraft II: Tides of Darkness. It is in C++. We were a team of 7 people.'
 individual_contribution:
-    - Enemies
-    - Items (placed in the floor and dropped by enemies)
-    - Player grenade
-    - Secret rooms
-    - Camera
-    - Spawn points
-    - Main menu
+    engine: ''
 
-tags: C++ SDL
+    physics:
+        - Add triggers and groups of colliders
+        - Implement a hierarchical collision detection
+
+    graphics:
+        - Beautify the Fog of War with sprites of quads with round corners
+        - Draw quads on the floor to give more visual feedback
+
+    ui: ''
+
+    ai:
+        - Write the A* and Dijkstra algorithms
+        - Make the pathfinding time-sliced
+        - Integrate my RTS Group Movement research
+        - Implement all of the units following a Goal-Driven Agent Behavior
+        - Implement the attack between multiple units, the critters' attack, and the buildings' attack
+
+    gameplay:
+        - Allow the player to assign several commands to their units
+        - Allow the player to save and load groups of units
+        - Spawn enemy waves at the player base
+
+tags: C++ SDL Tiled
 featured_image: '/img/posts/Warcraft.gif'
 
 website_url: 'https://devcrumbs.github.io/Warcraft-II/'
