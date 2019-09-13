@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Sandra Alvarez"
-description: Hi! I am a Game Developer.
+title: 'Sandra Alvarez'
+description: 'Hi! I am a Game Developer.'
 email: 'sandruskiag@gmail.com'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sandruski.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://sandruski.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 github_url: 'https://twitter.com/sandruskiag'
 linkedin_url: 'https://www.linkedin.com/in/sandra-alvarez-45453215b/'
 
@@ -28,7 +28,10 @@ plugins:
 
 ### Phantom settings
 paginate: 10
-footer_text: ''
+footer_intro: 'This theme is a modification of '
+footer_outro: 'by Jami Gibbs.'
+phantom_theme: 'Phantom'
+phantom_theme_url: 'https://github.com/jamigibbs/phantom'
 admin_name: 'Sandra Alvarez'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
