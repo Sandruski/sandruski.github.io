@@ -6,7 +6,7 @@ position: right
 
 title: 'Neko Engine'
 year: '2018'
-description: 'A game engine that features a shaders pipeline as a high-level system. It is in C++. It was done in pairs. This is the first game engine that I have ever developed!'
+description: 'A 3D game engine that features a rendering pipeline as a high-level system. It is in C++. It was done in pairs. This is the first game engine that I have ever developed!'
 individual_contribution:
     engine:
         - Implement a Quadtree
