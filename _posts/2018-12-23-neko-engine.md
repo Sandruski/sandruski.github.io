@@ -16,6 +16,7 @@ individual_contribution:
     - Time Management
     - Multitexturing
     - Water shaders
+disclaimer: 'Since we implemented the main systems of the game engine together, they are not on the previous list above.'
 
 tags: C++ SDL OpenGL Assimp DevIL ImGui MathGeoLib PhysFS
 featured_image: '/img/posts/Neko.gif'

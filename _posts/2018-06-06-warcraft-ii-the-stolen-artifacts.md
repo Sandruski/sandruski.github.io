@@ -18,6 +18,7 @@ individual_contribution:
     - Save and load of groups of units
     - Enemy waves at the player base
     - Enhancement of the Fog of War with sprites of quads with round corners
+disclaimer: ''
 
 tags: C++ SDL Tiled
 featured_image: '/img/posts/Warcraft.gif'

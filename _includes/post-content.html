@@ -19,18 +19,38 @@
 
     {% if post.individual_contribution != empty %}
 
-    My 
-    {% if post.individual_contribution_url != empty %}
-    <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
-    {% else %}
-    individual contribution:
-    {% endif %}
+    <br>
 
-    <ul class="my-list">
+    <element class="highlight">
+      <element class="gs">
+        My 
+        {% if post.individual_contribution_url != empty %}
+        <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
+        {% else %}
+        individual contribution:
+        {% endif %}
+      </element>
+    </element>
+
+    <ul>
     {% for snippet in post.individual_contribution %}
-      <li class="list-group-item-heading">{{ snippet }}</li>
+      <li>
+        <p>
+        {{ snippet }}
+        </p>
+      </li>
     {% endfor %}
     </ul>
+
+    {% if post.disclaimer != empty %}
+    <p>
+      <element class="highlight">
+        <element class="go">
+        {{ post.disclaimer }}
+        </element>
+      </element>
+    </p>
+    {% endif %}
 
     {% endif %}
 

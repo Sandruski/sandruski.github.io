@@ -12,6 +12,7 @@ individual_contribution:
     - Speed ups
     - Design and implementation of the map (OpenGL)
     - Automatic generation of the enclosure of the track
+disclaimer: 'Since we implemented the main systems of the game together, they are not on the previous list above.'
 
 tags: C++ SDL OpenGL Bullet
 featured_image: '/img/posts/Racing.gif'

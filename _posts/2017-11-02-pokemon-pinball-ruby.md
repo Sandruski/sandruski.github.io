@@ -15,6 +15,7 @@ individual_contribution:
     - Camera
     - Main menu
     - Integration of some music and SFX
+disclaimer: 'Since we implemented the main systems of the game together, they are not on the previous list above.'
 
 tags: C++ SDL Box2D
 featured_image: '/img/posts/Pinball.gif'

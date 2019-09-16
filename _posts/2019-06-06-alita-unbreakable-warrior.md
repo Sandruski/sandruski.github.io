@@ -20,6 +20,7 @@ individual_contribution:
     - Movement of all dynamic entities
     - Behaviors of both cyborgs and the boss
     - Combat
+disclaimer: ''
 
 tags: C++ C# SDL OpenGL Assimp DevIL ImGui MathGeoLib PhysFS PhysX Recast
 featured_image: '/img/posts/Alita.gif'

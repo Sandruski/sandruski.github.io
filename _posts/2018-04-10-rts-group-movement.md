@@ -8,6 +8,7 @@ title: 'RTS Group Movement'
 year: '2018'
 description: 'A research in how to implement group movement in RTS games. It follows a tile-based approach, mixing the A* algorithm for the pathfinding with a set of rules for the movement. It is in C++. It is a solo project.'
 individual_contribution: ''
+disclaimer: ''
 
 tags: C++ SDL Tiled
 featured_image: '/img/posts/Movement.gif'
