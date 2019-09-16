@@ -17,6 +17,7 @@ individual_contribution:
     - Cartoon, Outline, Decal, Fog, and Animation shaders
     - Movement system (own Steering Behaviors and pathfinding with Recast)
     - Decision making system (FSMs and Controllers)
+    - Movement of all dynamic entities
     - Behaviors of both cyborgs and the boss
     - Combat
 
