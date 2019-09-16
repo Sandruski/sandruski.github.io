@@ -14,7 +14,6 @@ individual_contribution:
     - File System
     - Importers (materials, scenes, and shaders)
     - Time Management
-    - Part of the rendering pipeline
     - Multitexturing
     - Water shaders
 
