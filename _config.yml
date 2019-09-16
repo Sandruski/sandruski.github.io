@@ -18,7 +18,7 @@ description: 'Hi! I am a Game Developer.'
 email: 'sandruskiag@gmail.com'
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://sandruski.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-github_url: 'https://twitter.com/sandruskiag'
+github_url: 'https://github.com/Sandruski'
 linkedin_url: 'https://www.linkedin.com/in/sandra-alvarez-45453215b/'
 
 # Build settings
