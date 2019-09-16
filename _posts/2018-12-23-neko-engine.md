@@ -8,26 +8,15 @@ title: 'Neko Engine'
 year: '2018'
 description: 'A 3D game engine that features a rendering pipeline as a high-level system. It is in C++. It was done in pairs. This is the first game engine that I have ever developed!'
 individual_contribution:
-    engine:
-        - Implement a Quadtree
-        - Implement the camera with Frustum Culling
-        - Implement the offline part of the Resource Manager (Assets and Library)
-        - Implement the File System
-        - Implement the Importers
-        - Take care of the Time Management
-
-    physics: ''
-
-    graphics:
-        - Implement part of the Shaders Pipeline
-        - Allow multitexturing
-        - Write the Water shaders
-
-    ui: ''
-
-    ai: ''
-
-    gameplay: ''
+    - Quadtree
+    - Camera with Frustum Culling
+    - Offline part of the Resource Manager (Assets and Library)
+    - File System
+    - Importers (materials, scenes, and shaders)
+    - Time Management
+    - Part of the rendering pipeline
+    - Multitexturing
+    - Water shaders
 
 tags: C++ SDL OpenGL Assimp DevIL ImGui MathGeoLib PhysFS
 featured_image: '/img/posts/Neko.gif'

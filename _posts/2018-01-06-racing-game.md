@@ -8,21 +8,10 @@ title: 'Racing Game'
 year: '2018'
 description: 'A 3D racing game. It is in C++. It was done in pairs.'
 individual_contribution:
-    engine: ''
-
-    physics: 
-        - Implement rotating obstacles
-        - Implement speed ups
-
-    graphics: ''
-
-    ui: ''
-
-    ai: ''
-
-    gameplay:
-        - Build the map
-        - Automatically enclose the track
+    - Rotating elements' physics
+    - Speed ups
+    - Design and implementation of the map (OpenGL)
+    - Automatic generation of the enclosure of the track
 
 tags: C++ SDL OpenGL Bullet
 featured_image: '/img/posts/Racing.gif'

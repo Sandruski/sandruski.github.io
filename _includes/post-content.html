@@ -19,7 +19,7 @@
 
     {% if post.individual_contribution != empty %}
 
-    Snippets of my 
+    My 
     {% if post.individual_contribution_url != empty %}
     <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
     {% else %}
@@ -27,91 +27,9 @@
     {% endif %}
 
     <ul class="my-list">
-
-      {% if post.individual_contribution.engine != empty %}
-      <element class="highlight">
-        <element class="gs">
-          <li class="list-group-item-heading">Engine:</li>
-        </element>
-      </element>
-
-      <ul class="my-list">
-        {% for snippet in post.individual_contribution.engine %}
-        <li class="list-group-item-heading">{{ snippet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if post.individual_contribution.physics != empty %}
-      <element class="highlight">
-        <element class="gs">
-          <li class="list-group-item-heading">Physics:</li>
-        </element>
-      </element>
-
-      <ul class="my-list">
-        {% for snippet in post.individual_contribution.physics %}
-        <li class="list-group-item-heading">{{ snippet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if post.individual_contribution.graphics != empty %}
-      <element class="highlight">
-        <element class="gs">
-          <li class="list-group-item-heading">Graphics:</li>
-        </element>
-      </element>
-
-      <ul class="my-list">
-        {% for snippet in post.individual_contribution.graphics %}
-        <li class="list-group-item-heading">{{ snippet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if post.individual_contribution.ui != empty %}
-      <element class="highlight">
-        <element class="gs">
-          <li class="list-group-item-heading">UI:</li>
-        </element>
-      </element>
-
-      <ul class="my-list">
-        {% for snippet in post.individual_contribution.ui %}
-        <li class="list-group-item-heading">{{ snippet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if post.individual_contribution.ai != empty %}
-      <element class="highlight">
-        <element class="gs">
-          <li class="list-group-item-heading">AI:</li>
-        </element>
-      </element>
-
-      <ul class="my-list">
-        {% for snippet in post.individual_contribution.ai %}
-        <li class="list-group-item-heading">{{ snippet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if post.individual_contribution.gameplay != empty %}
-      <element class="highlight">
-        <element class="gs">
-          <li class="list-group-item-heading">Gameplay:</li>
-        </element>
-      </element>
-
-      <ul class="my-list">
-        {% for snippet in post.individual_contribution.gameplay %}
-        <li class="list-group-item-heading">{{ snippet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
+    {% for snippet in post.individual_contribution %}
+      <li class="list-group-item-heading">{{ snippet }}</li>
+    {% endfor %}
     </ul>
 
     {% endif %}

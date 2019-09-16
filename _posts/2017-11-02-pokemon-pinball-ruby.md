@@ -8,26 +8,13 @@ title: 'Pokémon Pinball: Ruby'
 year: '2017'
 description: 'A tribute to Pokémon Pinball: Ruby & Sapphire. It is in C++. It was done in pairs.'
 individual_contribution:
-    engine: ''
-
-    physics: 
-        - Implement the ball
-        - Implement the flippers and the spring
-        - Implement the rotating pokémons   
-        - Add sensors to activate lights
-        - Add a second height with a new layer
-
-    graphics:
-        - Assign the correct sprite to the ball when rotating
-        - Upgrade the ball with new sprites
-
-    ui:
-        - Implement the main menu
-
-    ai: ''
-
-    gameplay:
-        - Implement the different states of the pokémon cave and the shark
+    - Ball, flippers, spring, and rotating pokémons' physics
+    - Respawn of the ball
+    - Behavior of the cave, the shark, the pokémon center-mart, and the coins
+    - Above layer
+    - Camera
+    - Main menu
+    - Integration of some music and SFX
 
 tags: C++ SDL Box2D
 featured_image: '/img/posts/Pinball.gif'
