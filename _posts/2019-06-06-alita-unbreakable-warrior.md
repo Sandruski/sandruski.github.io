@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2019-06-06
-type: project
+type: personal-project
 position: left
 
 title: 'Alita: Unbreakable Warrior'

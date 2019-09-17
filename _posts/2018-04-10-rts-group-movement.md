@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2018-04-10
-type: project
+type: personal-project
 position: left
 
 title: 'RTS Group Movement'

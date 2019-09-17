@@ -27,7 +27,7 @@ plugins:
   - jekyll-paginate
 
 ### Phantom settings
-paginate: 10
+paginate: 1000
 footer_intro: 'This theme is a modification of '
 footer_outro: 'by Jami Gibbs.'
 phantom_theme: 'Phantom'

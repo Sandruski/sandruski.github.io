@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2017-11-02
-type: project
+type: personal-project
 position: right
 
 title: 'Pokémon Pinball: Ruby'

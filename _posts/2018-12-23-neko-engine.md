@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2018-12-23
-type: project
+type: personal-project
 position: right
 
 title: 'Neko Engine'

@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2018-06-06
-type: project
+type: personal-project
 position: right
 
 title: 'Warcraft II: The Stolen Artifacts'

@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2018-01-06
-type: project
+type: personal-project
 position: left
 
 title: 'Racing Game'
