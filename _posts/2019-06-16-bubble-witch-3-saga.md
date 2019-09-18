@@ -14,7 +14,7 @@ individual_contribution:
     - Fixing of bugs and crashes
 disclaimer: ''
 
-tags: C++ Jira
+tags: C++
 featured_image: '/img/posts/bw3s.jpg'
 
 website_url: 'https://king.com/game/bubblewitch3'
