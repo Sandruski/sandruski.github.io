@@ -6,7 +6,7 @@ position: left
 
 title: 'Alita: Unbreakable Warrior'
 year: '2019'
-description: 'A 3D ARPG inspired by the universe of Alita: Battle Angel. We made the game in our own engine, JellyBit Engine, which we built on top of Neko Engine. The game is in C#, while the engine is in C++. We were a team of 18 people, the whole class.'
+description: 'A 3D ARPG inspired by the universe of Alita: Battle Angel. We made the game in our own engine, JellyBit Engine, which we built on top of Neko Engine. The game is in C# and the engine is in C++. We were a team of 18 people, the whole class.'
 individual_contribution:
     - Resource Manager   
     - Improvement of the Bones Importer
